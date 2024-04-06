@@ -1,10 +1,8 @@
-package temp;
+package Inheritance;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.UncheckedIOException;
 
-public class Inheritance {
+public class InheritanceException {
     public static void main(String[] args) {
         try{
             demoMethod();

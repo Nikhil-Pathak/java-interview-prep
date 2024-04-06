@@ -1,5 +1,7 @@
 package multithreading;
 
+import java.util.function.BiPredicate;
+
 public class DeadLock {
     public static void main(String[] args) {
         final Object resorce1 = new Object();
@@ -34,5 +36,6 @@ public class DeadLock {
 
         thread1.start();
         thread2.start();
+
     }
 }
